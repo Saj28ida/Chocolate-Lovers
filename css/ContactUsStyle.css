@@ -1,0 +1,94 @@
+@font-face{
+	font-family: font35;
+	src: url(../fonts/Cuprum-Bold.ttf);
+}
+
+@font-face{
+	font-family: font23;
+	src: url(../fonts/Barlow-SemiBold.ttf);
+}
+
+
+section{
+	background-image: url(../img/choco-back1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-attachment: fixed;
+	background-position: center;
+}
+
+form{
+	padding: 50px 10%;
+	display: flex;
+}
+
+fieldset{
+	border: #b30086 solid 1px;
+	background: #ffe6f9;
+	border-radius: 5px;
+}
+
+
+fieldset div{
+	margin: 50px;
+}
+
+
+
+legend{
+	font-size: 50px;
+	color: #b30086;
+	font-family: font23;
+
+}
+
+label , ::placeholder{
+	font-family: font23;
+}
+
+
+
+label{
+	font-size: 20px;
+	color: #b30086;
+}
+
+input{
+	height: 30px;
+	
+}
+
+textarea{
+	width: 500px;
+}
+
+textarea , input {
+	border: 1px #b30086 solid;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	width: 500px;
+	font-size: 20px;
+}
+
+::placeholder{
+	font-size: 18px;
+	color: #ccc;
+}
+
+#input-save , #input-cancel {
+	width: 150px;	
+	font-size: 20px;
+	padding: 0px;
+	height: 40px;
+	margin: 0 50px;
+	color: #b30086;
+	font-family: font35;
+	background-color: #ffe6f9;
+}
+
+#input-save:hover , #input-cancel:hover{
+	background-color: #b30086 ;
+	color: #fff;
+	cursor: pointer;
+}

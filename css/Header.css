@@ -1,0 +1,121 @@
+@keyframes animation2{
+	from{transform: rotateY(0deg);}
+	to{transform: rotateY(180deg);}
+}
+
+body{
+	margin: 0;
+}
+
+
+
+@font-face{
+	font-family: font31;
+	src: url(../fonts/CrimsonText-Regular.ttf);
+}
+
+@font-face{
+	font-family: font33;
+	src: url(../fonts/CrimsonText-SemiBold.ttf);
+}
+
+
+@font-face{
+	font-family: font26;
+	src: url(../fonts/Caveat-Bold.ttf);
+}
+
+
+
+@font-face{
+	font-family: font27;
+	src: url(../fonts/Caveat-Regular.ttf);
+}
+
+
+header{
+	background-color: #ffe6f9;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+}
+
+
+header img{
+	padding-top: 0px;
+}
+
+#header-logo img:hover{
+	animation: animation2 3.5s;
+}
+
+
+div a {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 50px;
+}
+
+
+nav{
+	line-height: 50px;
+}
+
+
+
+nav a{
+	text-transform: uppercase;
+}
+
+nav a:hover{
+	text-shadow: 0 0 10px #b30086;
+	color: 	#fff;
+}
+
+a{
+	font-family: font26;
+	text-decoration: none;
+	margin: 0 30px;
+	color: #b30086;
+	font-size: 25px;
+}
+
+
+#header-logo a{
+	margin-right: 0;
+	font-family: font26;
+	font-size: 30px;
+	color: #b30086;
+	margin-left: 0;
+}
+
+
+
+#header-logo a:hover{
+	text-shadow: 0 0 10px #b30086;
+	color: 	#fff;
+}
+
+
+
+#header-logo , #header-social-media{
+	display: flex;
+	justify-content: center;
+}
+
+#header-logo img{
+	width: 50px;
+	height: 50px;
+}
+
+
+
+#header-social-media img{
+	width: 20px;
+	height: 20px;
+}
+
+#header-social-media a{
+	margin: 0 10px;
+}

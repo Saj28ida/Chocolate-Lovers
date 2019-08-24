@@ -1,0 +1,67 @@
+@font-face{
+	font-family: font32;
+	src: url(../fonts/CrimsonText-RegularItalic.ttf);
+}
+
+@font-face{
+	font-family: font39;
+	src: url(../fonts/DancingScript-Bold.ttf);
+}
+
+
+body{
+
+}
+
+
+section{
+	margin: 20px 5%;
+	display: flex;
+	justify-content: center;
+
+}
+
+section div{
+	text-align: center;
+}
+
+
+h1{
+	font-family: font39;
+	font-size: 50px;
+	color: #ffcc00;
+}
+
+
+h2{
+	font-family: font39;
+	font-size: 40px;
+	color: #ffcc00;
+}
+
+
+p{
+	font-family: font32;
+	font-size: 25px;
+	text-align: justify;
+	line-height: 35px;
+	word-spacing: 4px;
+}
+
+
+#div-img{
+	display: flex;
+	justify-content: center;
+	margin: 0 0 100px 0;
+	opacity: 0.2;
+}
+
+
+#div-img:hover{
+	opacity: 1;
+}
+
+
+section div:last-child{
+	margin: 0 2%;
+}
