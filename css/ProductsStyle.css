@@ -385,8 +385,12 @@ h1{
 
 
 .main-container a{
-	width: 20%;
+	font-size: 12px;
+	line-height: 20px;
+}
 
+.main-container{
+	flex-wrap: nowrap;
 }
 
 
@@ -396,8 +400,23 @@ h1{
 }
 
 
-.main a:hover{
-	color: #fff;
-	text-shadow: 0 0 10px #b30086;
+.sec-1{
+	padding-top: 150px; 
 }
 
+
+.main-container a{
+	background: #b30086;
+	border-radius: 10px;
+	margin: 5px;
+	width: 10%;
+	color: #fff;
+	border: 1px solid transparent;
+}
+
+
+.main-container a:hover{
+	background: transparent;
+	border: 1px solid #b30086;
+	color: #b30086;
+}
