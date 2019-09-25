@@ -8,27 +8,13 @@ body{
 }
 
 
-
 @font-face{
-	font-family: font31;
-	src: url(../fonts/CrimsonText-Regular.ttf);
-}
-
-@font-face{
-	font-family: font33;
-	src: url(../fonts/CrimsonText-SemiBold.ttf);
-}
-
-
-@font-face{
-	font-family: font26;
+	font-family: Navbar-Font;
 	src: url(../fonts/Caveat-Bold.ttf);
 }
 
-
-
 @font-face{
-	font-family: font27;
+	font-family: Logo;
 	src: url(../fonts/Caveat-Regular.ttf);
 }
 
@@ -74,7 +60,7 @@ nav a:hover{
 }
 
 a{
-	font-family: font26;
+	font-family: Navbar-Font;
 	text-decoration: none;
 	margin: 0 30px;
 	color: #b30086;
@@ -84,7 +70,7 @@ a{
 
 #header-logo a{
 	margin-right: 0;
-	font-family: font26;
+	font-family: Logo;
 	font-size: 30px;
 	color: #b30086;
 	margin-left: 0;

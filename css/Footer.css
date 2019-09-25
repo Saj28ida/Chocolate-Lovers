@@ -1,36 +1,12 @@
 
 @font-face{
-	font-family: font52;
-	src: url(../fonts/Merriweather-RegularItalic.ttf);
-}
-
-@font-face{
-	font-family: font53;
-	src: url(../fonts/NotoSansKR-Black.otf);
-}
-
-@font-face{
-	font-family: font54;
-	src: url(../fonts/NotoSansKR-Bold.otf);
-}
-
-@font-face{
-	font-family: font55;
-	src: url(../fonts/NotoSansKR-Medium.otf);
-}
-
-@font-face{
-	font-family: font56;
+	font-family: Para-Font;
 	src: url(../fonts/NotoSansKR-Light.otf);
 }
 
 @font-face{
 	font-family: font33;
 	src: url(../fonts/CrimsonText-SemiBold.ttf);
-}
-@font-face{
-	font-family: font27;
-	src: url(../fonts/Caveat-Regular.ttf);
 }
 
 footer a{
@@ -53,7 +29,7 @@ footer{
 
 footer p{
 	color: #ffe6f9;
-	font-family: font56;
+	font-family: Para-Font;
 	font-weight: 100;
 	font-size: 15px;
 }

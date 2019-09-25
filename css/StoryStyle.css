@@ -1,35 +1,13 @@
-@font-face{
-	font-family: font23;
-	src: url(../fonts/Barlow-SemiBold.ttf);
-}
+
 @font-face{
 	font-family: font51;
 	src: url(../fonts/Merriweather-Regular.ttf);
 }
 
 @font-face{
-	font-family: font31;
-	src: url(../fonts/CrimsonText-Regular.ttf);
-}
-
-@font-face{
 	font-family: font33;
 	src: url(../fonts/CrimsonText-SemiBold.ttf);
 }
-
-
-@font-face{
-	font-family: font26;
-	src: url(../fonts/Caveat-Bold.ttf);
-}
-
-
-
-@font-face{
-	font-family: font27;
-	src: url(../fonts/Caveat-Regular.ttf);
-}
-
 
 .left{float: left;}
 .right{float: right;}
@@ -68,7 +46,7 @@
 
 
 .div-1 , .div-4 , .div-5 , .div-8 , .div-9{
-	background-color: #f6c55e;
+	background-color: #fff;
 }
 
 .div-2 , .div-3 , .div-6 , .div-7 , .div-10{
@@ -86,7 +64,6 @@
 }
 
 
-
 .div-1 h3, .div-4 h3, .div-5 h3, .div-8 h3, .div-9 h3{
 	color: #b30086;
 }
@@ -98,21 +75,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*FLIP CARD - CSS*/
 .card-container{
 	position: relative;
 	width: 100%;
@@ -120,7 +83,6 @@
 	margin: 0 20%;
 
 }
-
 
 .card{
 	position: absolute;
@@ -134,10 +96,6 @@
 	transform: rotateY(180deg);
 }
 
-
-
-
-
 .front1 , .back1 ,.front2 , .back2{
 	position: absolute;
 	width: 100%;
@@ -149,19 +107,9 @@
 	transform: rotateY(180deg);
 }
 
-
 .card p{
 	width: 600px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
